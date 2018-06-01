@@ -114,10 +114,10 @@ class FarmBot:
         
 if __name__ == '__main__': # rest in pieces
     FarmBot('PacketBot',  'test', '45.63.119.253', 1031)
-    FarmBot('PacketBot1',  'test', '45.63.119.253', 1031)
-    FarmBot('PacketBot2',  'test', '45.63.119.253', 1031)
-    FarmBot('PacketBot3',  'test', '45.63.119.253', 1031)
-    FarmBot('PacketBot4',  'test', '45.63.119.253', 1031)
+    FarmBot('NiceFun',  'lolok', '45.63.119.253', 1031)
+    FarmBot('RoughStana',  'lolok', '45.63.119.253', 1031)
+    FarmBot('imwinner',  'lolok', '45.63.119.253', 1031)
+    FarmBot('shutyomouf',  'lolok', '45.63.119.253', 1031)
     FarmBot('PacketBot5',  'test', '45.63.119.253', 1031)
     FarmBot('PacketBot6',  'test', '45.63.119.253', 1031)
     FarmBot('PacketBot7',  'test', '45.63.119.253', 1031)
