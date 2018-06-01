@@ -69,10 +69,7 @@ class FarmBot:
                 print('Disconnected')
                 break
 
-    def connectToServer(self, Username, Password, ServerIP, ServerPort):
-        if Username.lower() == 'PacketBot': # if running multiple bots, set to first one to ensure it doesn't reset the db users status
-            self.executeDatabaseQuery("UPDATE users SET status = 0")
-            
+    def connectToServer(self, Username, Password, ServerIP, ServerPort):         
         try:
             self.SocketConn = socket.create_connection((ServerIP, ServerPort))
         except Exception as Error:
