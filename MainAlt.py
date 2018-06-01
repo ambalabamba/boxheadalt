@@ -111,7 +111,9 @@ class FarmBot:
                     break
         else:
             print('Server capacity check failed')
-        
+            #wtf
+            #bro
+            #ok
 if __name__ == '__main__': # rest in pieces
     FarmBot('PacketBot',  'test', '45.63.119.253', 1031)
     FarmBot('NiceFun',  'lolok', '45.63.119.253', 1031)
