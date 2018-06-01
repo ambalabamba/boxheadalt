@@ -122,4 +122,4 @@ class FarmBot:
 
         
 if __name__ == '__main__': # rest in pieces
-    FarmBot('JoynerLucas',  'lolok', '45.63.119.253', 1031)
+    FarmBot('EminenceLikesYoung',  'lolok', '45.63.119.253', 1031)
