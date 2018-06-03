@@ -101,7 +101,7 @@ class FarmBot:
 
                     print('Bot Username: {} / Bot ID: {} / Located in {}'.format(self.BotUsername, self.BotID, self.BotServer))
 
-                    EntryPackets = ['02Z900_', '03_', '02A01GAME;A', '04GAME', '0k1']
+                    EntryPackets = ['02Z900_', '03GAME', '02A01GAME;A', '04GAME', '0k1'] #02A01GAME;A
 
                     for Packet in EntryPackets:
                         self.sendPacket(self.SocketConn, Packet)
