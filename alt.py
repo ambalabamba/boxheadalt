@@ -122,4 +122,4 @@ class FarmBot:
 
         
 if __name__ == '__main__': # rest in pieces
-    FarmBot('Schallmeister.XGENST',  'lolok', '45.63.119.253', 1031)
+    FarmBot('EMINENCE.PEDOPHILE',  'lolok', '45.63.119.253', 1031)
